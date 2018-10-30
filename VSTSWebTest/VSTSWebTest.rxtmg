@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.3">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="VSTSWebTest"
+      id="00d27558-f356-4ca7-b12c-c55b85ea46a3"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="VSTSWebTest"
+      id="00d27558-f356-4ca7-b12c-c55b85ea46a3"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

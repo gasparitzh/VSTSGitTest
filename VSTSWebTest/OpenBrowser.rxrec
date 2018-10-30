@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="82641c69-22d0-4247-bb6d-327a880d5bb5"
+mode="Desktop"
+rxversion="8.3">
+	<name>
+		OpenBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="VSTSWebTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="0eaf6c41-d567-4463-b444-168e693ae9c2"
+	name="VSTSWebTestRepository"
+	relativepath="VSTSWebTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="VSTSWebTestRepository"
+		namespace="VSTSWebTest">
+		</codegen>
+		<rootfolder
+		id="1647540c-5d85-425e-95aa-9f98db6c861e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

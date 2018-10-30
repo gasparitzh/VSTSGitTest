@@ -1,0 +1,78 @@
+﻿<repository
+id="0eaf6c41-d567-4463-b444-168e693ae9c2"
+name="VSTSWebTestRepository"
+rxversion="8.3">
+	<codegen
+	classname="VSTSWebTestRepository"
+	namespace="VSTSWebTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1647540c-5d85-425e-95aa-9f98db6c861e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="cddba3de-9db7-4f8b-a553-8247845bac6c"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="60b9ce67-6db9-4255-b7ba-933af9a2106f"
+			name="RanorexLogo"
+			refimgid="6a056a68-e3e2-4996-ac02-b40d49729115"
+			refpath="/dom[@domain='www.ranorex.com']/body/header/div/div[1]/nav/div/div[1]/div/div/div[1]/div/a[@href='https://www.ranorex.com/']/img[@alt='Ranorex Logo']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']/body/header/div/div[1]/nav/div/div[1]//a[@href='https://www.ranorex.com/']/img[@alt='Ranorex Logo']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="52cea2d8-9ed4-4a52-97c8-ea31db8a84e1"
+			name="FREETRIAL"
+			refimgid="56c93818-740b-4464-9e9f-abab9233cdce"
+			refpath="/dom[@domain='www.ranorex.com']/body/header/div/div[1]/nav/div/div[1]/div/div/div[2]/div/ul/a[@innertext='FREE TRIAL']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']/body/header/div/div[1]/nav/div/div[1]//ul/a[@innertext='FREE TRIAL']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="5b550cd2-4da0-4a62-8983-c039544e2a0e"
+			name="ExperienceThePowerOfRanorexStudioH"
+			refimgid="a89539af-b413-4e35-85ef-5f8de322bc31"
+			refpath="/dom[@domain='www.ranorex.com']/body/div[1]/div/tag[@tagname='main']/div/div[@id='et_builder_outer_content']/div/div/div/div[1]/div[1]/div/div/div[@innertext='Get started with your free, full-featured 30-day Ranorex Studio trial. No credit card required.']/h1[@innertext='Experience the power of Ranorex Studio hands-on']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']/body/div[1]/div//div[@id='et_builder_outer_content']/div/div/div/div[1]/div[1]//div[@innertext~'^Get\ started\ with\ your\ free,\ full-featured\ 30-day\ ']/h1[@innertext='Experience the power of Ranorex Studio hands-on']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

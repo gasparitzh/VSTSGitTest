@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ed18655c-d1ba-477e-aedc-91983cf9d2de"
+mode="Desktop"
+rxversion="8.3">
+	<name>
+		CloseBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="VSTSWebTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="c32dd725-e63c-486e-8d95-f8332779d791">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cddba3de-9db7-4f8b-a553-8247845bac6c"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0eaf6c41-d567-4463-b444-168e693ae9c2"
+	name="VSTSWebTestRepository"
+	relativepath="VSTSWebTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="VSTSWebTestRepository"
+		namespace="VSTSWebTest">
+		</codegen>
+		<rootfolder
+		id="1647540c-5d85-425e-95aa-9f98db6c861e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
